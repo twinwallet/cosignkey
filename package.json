@@ -1,0 +1,25 @@
+{
+  "name": "cosignkey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twinwallet/cosignkey.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twinwallet/cosignkey/issues"
+  },
+  "homepage": "https://github.com/twinwallet/cosignkey#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.4"
+  }
+}
