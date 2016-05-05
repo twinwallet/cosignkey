@@ -24,12 +24,12 @@ describe('cosingKey', function () {
       })
       it('should throw error #1', function () {
         expect(function () {
-          var result = getBuffer('invalid base64 data')
+          getBuffer('invalid base64 data')
         }).to.throw(Error)
       })
       it('should throw error #2', function () {
         expect(function () {
-          var result = getBuffer(345)
+          getBuffer(345)
         }).to.throw(Error)
       })
     })
@@ -45,7 +45,7 @@ describe('cosingKey', function () {
         [new Buffer('12345678', 'hex'), new Buffer('fedcba', 'hex')],
         [new Buffer('ffffffff', 'hex'), new Buffer('ffffffff', 'hex')],
         [new Buffer('ffffffff', 'hex'), new Buffer('00ffffff', 'hex')],
-        [new Buffer('ffffffff', 'hex'), new Buffer('ffff0000', 'hex')],
+        [new Buffer('ffffffff', 'hex'), new Buffer('ffff0000', 'hex')]
       ]
       
       errorTestCases.forEach(function (testcase, idx) {
