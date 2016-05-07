@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/twinwallet/cosignkey.svg?branch=master)](https://travis-ci.org/twinwallet/cosignkey)
+[![Coverage Status](https://coveralls.io/repos/github/twinwallet/cosignkey/badge.svg?branch=master)](https://coveralls.io/github/twinwallet/cosignkey?branch=master)
+
 Usage with bitcore-lib
 ------------------------------
 To extract entropy from a HD private key:
